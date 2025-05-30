@@ -25,7 +25,7 @@ jobs:
         with:
           token: ${{ secrets.CSK_PAT }}
           repository: ianhubnet/csk-languages
-          event-type: lang-update
+          event-type: update-submodules
           client-payload: |
             {
               "name": "${{ steps.meta.outputs.name }}",
