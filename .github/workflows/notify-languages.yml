@@ -1,0 +1,33 @@
+name: Notify `ianhubnet/csk-languages`
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'language/**'
+      - 'system/**'
+
+jobs:
+  notify-parent:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Compute metadata
+        id: meta
+        run: |
+          repo="${GITHUB_REPOSITORY##*/}"
+          name="${repo#csk-lang-}"
+          echo "name=$lang" >> $GITHUB_OUTPUT
+
+      - name: Trigger update on csk-languages
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.CSK_PAT }}
+          repository: ianhubnet/csk-languages
+          event-type: lang-update
+          client-payload: |
+            {
+              "name": "${{ steps.meta.outputs.name }}",
+              "repo": "${{ github.repository }}"
+            }
