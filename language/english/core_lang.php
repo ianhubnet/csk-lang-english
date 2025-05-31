@@ -310,6 +310,7 @@ $lang['select_user']                   = '&#151; Select user &#151;';
 $lang['send']                          = 'Send';
 $lang['send_link']                     = 'Send link';
 $lang['session_history']               = 'Session History';
+$lang['session_logged_out_elsewhere']  = 'You were logged out because your account was accessed from another device (IP: %s).';
 $lang['setting']                       = 'Setting';
 $lang['settings']                      = 'Settings';
 $lang['settings_com']                  = 'Settings: %s';
