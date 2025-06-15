@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') OR die;
+defined('BASEPATH') || exit('A moment of silence for your attempt.');
 
 $lang['cal_su']        = 'Su';
 $lang['cal_mo']        = 'Mo';

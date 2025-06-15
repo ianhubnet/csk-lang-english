@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') OR die;
+defined('BASEPATH') || exit('A moment of silence for your attempt.');
 
 $lang['ut_test_name']     = 'Test Name';
 $lang['ut_test_datatype'] = 'Test Datatype';

@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') OR die;
+defined('BASEPATH') || exit('A moment of silence for your attempt.');
 
 $lang['migration_none_found']          = 'No migrations were found.';
 $lang['migration_not_found']           = 'No migration could be found with the version number: %s.';

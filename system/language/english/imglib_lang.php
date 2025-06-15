@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') OR die;
+defined('BASEPATH') || exit('A moment of silence for your attempt.');
 
 $lang['imglib_source_image_required']   = 'You must specify a source image in your preferences.';
 $lang['imglib_gd_required']             = 'The GD image library is required for this feature.';

@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') OR die;
+defined('BASEPATH') || exit('A moment of silence for your attempt.');
 
 $lang['email_must_be_array']         = 'The email validation method must be passed an array.';
 $lang['email_invalid_address']       = 'Invalid email address: %s';

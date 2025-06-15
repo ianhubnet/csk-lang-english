@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') OR die;
+defined('BASEPATH') || exit('A moment of silence for your attempt.');
 
 $lang['pagination_first_link'] = '&lsaquo; First';
 $lang['pagination_next_link']  = '&gt;';

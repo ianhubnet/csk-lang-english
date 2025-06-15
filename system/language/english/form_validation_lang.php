@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') OR die;
+defined('BASEPATH') || exit('A moment of silence for your attempt.');
 
 $lang['form_validation_required']              = 'The {field} field is required.';
 $lang['form_validation_isset']                 = 'The {field} field must have a value.';
