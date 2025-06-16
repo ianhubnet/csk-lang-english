@@ -52,3 +52,4 @@ $lang['form_validation_min_words']         = 'The {field} field must contain at 
 $lang['form_validation_max_words']         = 'The {field} field must not exceed {param} words.';
 $lang['form_validation_exact_words']       = 'The {field} field must contain exactly {param} words.';
 $lang['form_validation_alpha_dash_space']  = 'The {field} field may only contain alpha-numeric characters, underscores, dashes, and spaces.';
+$lang['form_validation_strong_password']   = 'For your safety, please choose a stronger password.';
