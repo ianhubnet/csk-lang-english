@@ -287,6 +287,7 @@ $lang['refresh']                       = 'Refresh';
 $lang['refuse']                        = 'Refuse';
 $lang['register']                      = 'Register';
 $lang['reject']                        = 'Reject';
+$lang['reload']                        = 'Reload';
 $lang['remember_me']                   = 'Remember me';
 $lang['remove']                        = 'Remove';
 $lang['required_field_error']          = 'The %s field is required.';
