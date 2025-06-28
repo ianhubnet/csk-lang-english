@@ -133,6 +133,7 @@ $lang['email_activation']                = 'Email Activation';
 $lang['email_activation_tip']            = 'Whether to force users to verify their email addresses before being allowed to log in.';
 $lang['enable_profiler']                 = 'Enable Profiler';
 $lang['enable_profiler_tip']             = 'Display benchmark results, queries you have run, and various other info.';
+$lang['environment_tip']                 = 'Select the environment the site is running in.';
 $lang['facebook_app_id']                 = 'Facebook App ID';
 $lang['facebook_app_id_tip']             = 'Enter your Facebook application ID.';
 $lang['facebook_app_secret']             = 'Client Secret';
