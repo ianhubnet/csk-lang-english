@@ -32,6 +32,7 @@ $lang['admin_update_notice']   = '<a href="%2$s" target="_blank">Version <strong
 $lang['admin_users']           = 'Users';
 $lang['admin_view_site']       = 'View Site';
 $lang['settings_global']       = 'Global Settings';
+$lang['settings_integrations'] = 'Integrations';
 $lang['settings_sysinfo']      = 'System Information';
 
 /**
