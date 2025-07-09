@@ -1,5 +1,4 @@
 <?php
-defined('BASEPATH') || exit('A moment of silence for your attempt.');
 
 $lang['country_ad'] = 'Andorra';
 $lang['country_ae'] = 'United Arab Emirates';
