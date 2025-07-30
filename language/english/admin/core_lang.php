@@ -269,7 +269,7 @@ $lang['use_imgur_tip'] = 'Upload your images to Imgur instead (<a href="https://
 $lang['use_manifest'] = 'Enable Progressive Web App';
 $lang['use_manifest_tip'] = 'A "manifest.json" file is a JSON file that provides metadata about a site or web application, primarily to enhance how the site behaves on mobile devices and how it can be added to the user\'s home screen as a Progressive Web App (PWA).';
 $lang['use_recaptcha'] = 'Use reCAPTCHA';
-$lang['use_recaptcha_tip'] = 'Use Google reCAPTCHA if enabled, or use CodeIgniter\'s built-in captcha if Use captcha is set to Yes.';
+$lang['use_recaptcha_tip'] = 'Use Google reCAPTCHA if enabled, or use CiSkeleton\'s built-in captcha if Use captcha is set to Yes.';
 $lang['pwa'] = 'PWA';
 
 // System Information
