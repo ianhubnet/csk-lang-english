@@ -24,6 +24,7 @@ $lang['admin_help'] = 'Help';
 $lang['admin_logs'] = 'System Logs';
 $lang['admin_media'] = 'Media Library';
 $lang['admin_modules'] = 'Modules';
+$lang['admin_plugins'] = 'Plugins';
 $lang['admin_reports'] = 'Actions Log';
 $lang['admin_system'] = 'System';
 $lang['admin_themes'] = 'Themes';
@@ -363,6 +364,10 @@ $lang['report_module_delete'] = '%s deleted module: <strong>%s</strong>.';
 $lang['report_module_disable'] = '%s disabled module: <strong>%s</strong>.';
 $lang['report_module_enable'] = '%s enabled module: <strong>%s</strong>.';
 $lang['report_module_install'] = '%s installed module: <strong>%s</strong>.';
+$lang['report_plugin_delete'] = '%s deleted plugin: <strong>%s</strong>.';
+$lang['report_plugin_disable'] = '%s disabled plugin: <strong>%s</strong>.';
+$lang['report_plugin_enable'] = '%s enabled plugin: <strong>%s</strong>.';
+$lang['report_plugin_install'] = '%s installed plugin: <strong>%s</strong>.';
 $lang['report_users_activate'] = 'Account %s activated.';
 $lang['report_users_activate_link'] = '%s requested a new activation link.';
 $lang['report_users_link'] = '%s requested a quick-login link.';
@@ -402,7 +407,7 @@ $lang['admin_media_url_copied'] = 'URL Copied!';
 $lang['admin_modules_add'] = 'Add Module';
 $lang['admin_modules_delete_confirm'] = 'Are you sure you want to delete the module: <strong>%s</strong>?';
 $lang['admin_modules_delete_error'] = 'Unable to delete the module.';
-$lang['admin_modules_delete_success'] = 'Mdule successfully deleted.';
+$lang['admin_modules_delete_success'] = 'Module successfully deleted.';
 $lang['admin_modules_disable_confirm'] = 'Are you sure you want to disable the module: <strong>%s</strong>?';
 $lang['admin_modules_disable_error'] = 'Unable to deactivate the module.';
 $lang['admin_modules_disable_success'] = 'Module successfully deactivated.';
@@ -420,6 +425,34 @@ $lang['admin_modules_upload'] = 'Upload Module';
 $lang['admin_modules_upload_error'] = 'Unable to upload module.';
 $lang['admin_modules_upload_success'] = 'Module successfully uploaded.';
 $lang['admin_modules_upload_tip'] = 'If you have a module in a .zip format, you may install it by uploading it here.';
+
+/**
+ * ---------------------------------------------------------------
+ * Plugins Section
+ * ---------------------------------------------------------------
+ * Language lines for the plugins management section.
+ */
+$lang['admin_plugins_add'] = 'Add Plugin';
+$lang['admin_plugins_delete_confirm'] = 'Are you sure you want to delete the plugin: <strong>%s</strong>?';
+$lang['admin_plugins_delete_error'] = 'Unable to delete the plugin.';
+$lang['admin_plugins_delete_success'] = 'Plugin successfully deleted.';
+$lang['admin_plugins_disable_confirm'] = 'Are you sure you want to disable the plugin: <strong>%s</strong>?';
+$lang['admin_plugins_disable_error'] = 'Unable to deactivate the plugin.';
+$lang['admin_plugins_disable_success'] = 'Plugin successfully deactivated.';
+$lang['admin_plugins_enable_confirm'] = 'Are you sure you want to enable the plugin: <strong>%s</strong>?';
+$lang['admin_plugins_enable_error'] = 'Unable to activate the plugin.';
+$lang['admin_plugins_enable_success'] = 'Plugin successfully activated.';
+$lang['admin_plugins_install'] = 'Install Plugin';
+$lang['admin_plugins_install_error'] = 'Unable to install plugin.';
+$lang['admin_plugins_install_success'] = 'Plugin successfully installed.';
+$lang['admin_plugins_location_application'] = 'Private to this app';
+$lang['admin_plugins_location_core'] = 'Shared across all apps';
+$lang['admin_plugins_location_public'] = 'Public to this app';
+$lang['admin_plugins_location_select'] = '&#151; Select location &#151;';
+$lang['admin_plugins_upload'] = 'Upload Plugin';
+$lang['admin_plugins_upload_error'] = 'Unable to upload plugin.';
+$lang['admin_plugins_upload_success'] = 'Plugin successfully uploaded.';
+$lang['admin_plugins_upload_tip'] = 'If you have a plugin in a .zip format, you may install it by uploading it here.';
 
 /**
  * ---------------------------------------------------------------
