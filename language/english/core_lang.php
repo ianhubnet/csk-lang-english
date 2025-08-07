@@ -121,6 +121,7 @@ $lang['donate'] = 'Donate';
 $lang['draft'] = 'Draft';
 $lang['drop_to_upload'] = 'Drop files here to upload.';
 $lang['edit'] = 'Edit';
+$lang['edit_original'] = 'Edit Original';
 $lang['edit_profile'] = 'Edit Profile';
 $lang['email'] = 'Email';
 $lang['email_address'] = 'Email address';
