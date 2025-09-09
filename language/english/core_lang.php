@@ -264,6 +264,7 @@ $lang['personal_info'] = 'Personal Info';
 $lang['personal_info_notice'] = 'Personal informations are private, never shared and never exposed.';
 $lang['phone'] = 'Phone';
 $lang['phone_num'] = 'Phone Number';
+$lang['plugin'] = 'Plugin';
 $lang['popular'] = 'Popular';
 $lang['powered_by'] = 'Powered by %s';
 $lang['powered_by_url'] = 'Powered by <a href="%2$s" target="_blank">%1$s</a>';
