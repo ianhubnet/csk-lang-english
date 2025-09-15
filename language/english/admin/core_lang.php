@@ -19,16 +19,16 @@ $lang['admin_content'] = 'Content';
 $lang['admin_database_backup'] = 'Database Backups';
 $lang['admin_extensions'] = 'Extensions';
 $lang['admin_footer_left'] = 'Thank you for creating with <a href="%s" target="_blank">%s</a>.';
-$lang['admin_footer_right'] = 'Version: <strong>%s</strong>';
+$lang['admin_footer_right'] = 'Version: <b>%s</b>';
 $lang['admin_help'] = 'Help';
 $lang['admin_logs'] = 'System Logs';
 $lang['admin_media'] = 'Media Library';
 $lang['admin_modules'] = 'Modules';
 $lang['admin_plugins'] = 'Plugins';
-$lang['admin_reports'] = 'Actions Log';
+$lang['admin_reports'] = 'Activity Log';
 $lang['admin_system'] = 'System';
 $lang['admin_themes'] = 'Themes';
-$lang['admin_update_notice'] = '<a href="%2$s" target="_blank">Version <strong>%1$s<strong> is now available!<a>';
+$lang['admin_update_notice'] = '<a href="%2$s" target="_blank">Version <b>%1$s</b> is now available!</a>';
 $lang['admin_users'] = 'Users';
 $lang['admin_view_site'] = 'View Site';
 $lang['settings_global'] = 'Global Settings';
@@ -45,8 +45,8 @@ $lang['admin_database_backup_clean_error'] = 'Unable to clean old backup files.'
 $lang['admin_database_backup_clean_success'] = '%d backup files deleted. %d disk space freed.';
 $lang['admin_database_backup_create'] = 'Create Backup';
 $lang['admin_database_backup_create_confirm'] = 'Are you sure you want to create a backup now?';
-$lang['admin_database_backup_create_error'] = 'Unable to create backup file. Make sure the folder <strong>%s</strong> is writable.';
-$lang['admin_database_backup_create_success'] = 'Database backup file <strong>%s</strong> successfully created.';
+$lang['admin_database_backup_create_error'] = 'Unable to create backup file. Make sure the folder <b>%s</b> is writable.';
+$lang['admin_database_backup_create_success'] = 'Database backup file <b>%s</b> successfully created.';
 $lang['admin_database_backup_delete_confirm'] = 'Are you sure you want to delete these backup files?';
 $lang['admin_database_backup_delete_error'] = 'Unable to delete selected backup files.';
 $lang['admin_database_backup_delete_success'] = 'Backup files were successfully deleted.';
@@ -63,7 +63,7 @@ $lang['admin_database_backup_unlock_success'] = 'Backup files successfully unloc
 $lang['admin_database_prune'] = 'Prune';
 $lang['admin_database_prune_confirm'] = 'Are you sure you want to prune the database? A backup will be created execution.';
 $lang['admin_database_prune_error'] = 'Unable to prune database.';
-$lang['admin_database_prune_next'] = 'Next prune: <strong>%s</strong>';
+$lang['admin_database_prune_next'] = 'Next prune: <b>%s</b>';
 $lang['admin_database_prune_success'] = 'Database pruned successfully.';
 
 /**
@@ -349,41 +349,11 @@ $lang['admin_users_unban_success'] = 'User successfully unbanned.';
  * ---------------------------------------------------------------
  * Language lines for the activity log section.
  */
-
-// Title and Messages
 $lang['admin_reports_clear'] = 'Clear Logs';
 $lang['admin_reports_clear_confirm'] = 'Are you sure you want to clear the actions log?';
 $lang['admin_reports_clear_error'] = 'Unable to clear actions log.';
 $lang['admin_reports_clear_success'] = 'Actions log successfully cleared.';
 $lang['admin_reports_latest_actions'] = 'Latest Actions';
-
-// Various Activity Logs
-$lang['report_clear_reports'] = '%s cleared the action logs.';
-$lang['report_language_default'] = '%s changed default language: <strong>%s</strong>.';
-$lang['report_language_disable'] = '%s disabled language: <strong>%s</strong>.';
-$lang['report_language_enable'] = '%s enabled language: <strong>%s</strong>.';
-$lang['report_module_delete'] = '%s deleted module: <strong>%s</strong>.';
-$lang['report_module_disable'] = '%s disabled module: <strong>%s</strong>.';
-$lang['report_module_enable'] = '%s enabled module: <strong>%s</strong>.';
-$lang['report_module_install'] = '%s installed module: <strong>%s</strong>.';
-$lang['report_plugin_delete'] = '%s deleted plugin: <strong>%s</strong>.';
-$lang['report_plugin_disable'] = '%s disabled plugin: <strong>%s</strong>.';
-$lang['report_plugin_enable'] = '%s enabled plugin: <strong>%s</strong>.';
-$lang['report_plugin_install'] = '%s installed plugin: <strong>%s</strong>.';
-$lang['report_users_activate'] = 'Account %s activated.';
-$lang['report_users_activate_link'] = '%s requested a new activation link.';
-$lang['report_users_link'] = '%s requested a quick-login link.';
-$lang['report_users_login_admin'] = '%s logged in to admin.';
-$lang['report_users_login_discord'] = '%s logged in from <u>Discord</u>.';
-$lang['report_users_login_facebook'] = '%s logged in from <u>Facebook</u>.';
-$lang['report_users_login_github'] = '%s logged in from <u>GitHub</u>.';
-$lang['report_users_login_google'] = '%s logged in from <u>Google</u>.';
-$lang['report_users_login_linkedin'] = '%s logged in from <u>LinkedIn</u>.';
-$lang['report_users_login_site'] = '%s logged in to site.';
-$lang['report_users_recover'] = '%s requested a password reset.';
-$lang['report_users_register'] = 'Account %s created.';
-$lang['report_users_reset'] = '%s reset their password.';
-$lang['report_users_restore'] = 'User %s was restored.';
 
 /**
  * ---------------------------------------------------------------
@@ -407,19 +377,19 @@ $lang['admin_media_url_copied'] = 'URL Copied!';
  * Language lines for the modules management section.
  */
 $lang['admin_modules_add'] = 'Add Module';
-$lang['admin_modules_delete_confirm'] = 'Are you sure you want to delete the module: <strong>%s</strong>?';
+$lang['admin_modules_delete_confirm'] = 'Are you sure you want to delete the module: <b>%s</b>?';
 $lang['admin_modules_delete_error'] = 'Unable to delete the module.';
 $lang['admin_modules_delete_success'] = 'Module successfully deleted.';
 $lang['admin_modules_disable_all_confirm'] = 'Are you sure you want to disable all modules?';
 $lang['admin_modules_disable_all_error'] = 'Unable to disable all modules.';
 $lang['admin_modules_disable_all_success'] = 'All modules were successfully disabled.';
-$lang['admin_modules_disable_confirm'] = 'Are you sure you want to disable the module: <strong>%s</strong>?';
+$lang['admin_modules_disable_confirm'] = 'Are you sure you want to disable the module: <b>%s</b>?';
 $lang['admin_modules_disable_error'] = 'Unable to deactivate the module.';
 $lang['admin_modules_disable_success'] = 'Module successfully deactivated.';
 $lang['admin_modules_enable_all_confirm'] = 'Are you sure you want to enable all modules?';
 $lang['admin_modules_enable_all_error'] = 'Unable to enable all modules.';
 $lang['admin_modules_enable_all_success'] = 'All modules were successfully enabled.';
-$lang['admin_modules_enable_confirm'] = 'Are you sure you want to enable the module: <strong>%s</strong>?';
+$lang['admin_modules_enable_confirm'] = 'Are you sure you want to enable the module: <b>%s</b>?';
 $lang['admin_modules_enable_error'] = 'Unable to activate the module.';
 $lang['admin_modules_enable_success'] = 'Module successfully activated.';
 $lang['admin_modules_install'] = 'Install Module';
@@ -441,19 +411,19 @@ $lang['admin_modules_upload_tip'] = 'If you have a module in a .zip format, you 
  * Language lines for the plugins management section.
  */
 $lang['admin_plugins_add'] = 'Add Plugin';
-$lang['admin_plugins_delete_confirm'] = 'Are you sure you want to delete the plugin: <strong>%s</strong>?';
+$lang['admin_plugins_delete_confirm'] = 'Are you sure you want to delete the plugin: <b>%s</b>?';
 $lang['admin_plugins_delete_error'] = 'Unable to delete the plugin.';
 $lang['admin_plugins_delete_success'] = 'Plugin successfully deleted.';
 $lang['admin_plugins_disable_all_confirm'] = 'Are you sure you want to disable all plugins?';
 $lang['admin_plugins_disable_all_error'] = 'Unable to disable all plugins.';
 $lang['admin_plugins_disable_all_success'] = 'All plugins were successfully disabled.';
-$lang['admin_plugins_disable_confirm'] = 'Are you sure you want to disable the plugin: <strong>%s</strong>?';
+$lang['admin_plugins_disable_confirm'] = 'Are you sure you want to disable the plugin: <b>%s</b>?';
 $lang['admin_plugins_disable_error'] = 'Unable to deactivate the plugin.';
 $lang['admin_plugins_disable_success'] = 'Plugin successfully deactivated.';
 $lang['admin_plugins_enable_all_confirm'] = 'Are you sure you want to enable all plugins?';
 $lang['admin_plugins_enable_all_error'] = 'Unable to enable all plugins.';
 $lang['admin_plugins_enable_all_success'] = 'All plugins were successfully enabled.';
-$lang['admin_plugins_enable_confirm'] = 'Are you sure you want to enable the plugin: <strong>%s</strong>?';
+$lang['admin_plugins_enable_confirm'] = 'Are you sure you want to enable the plugin: <b>%s</b>?';
 $lang['admin_plugins_enable_error'] = 'Unable to activate the plugin.';
 $lang['admin_plugins_enable_success'] = 'Plugin successfully activated.';
 $lang['admin_plugins_install'] = 'Install Plugin';
@@ -475,11 +445,11 @@ $lang['admin_plugins_upload_tip'] = 'If you have a plugin in a .zip format, you 
  * Language lines for the themes management section.
  */
 $lang['admin_themes_add'] = 'Add Theme';
-$lang['admin_themes_delete_confirm'] = 'Are you sure you want to delete the theme: <strong>%s</strong>?';
+$lang['admin_themes_delete_confirm'] = 'Are you sure you want to delete the theme: <b>%s</b>?';
 $lang['admin_themes_delete_error'] = 'Unable to delete theme.';
 $lang['admin_themes_delete_error_active'] = 'You cannot delete the currently active theme.';
 $lang['admin_themes_delete_success'] = 'Theme successfully deleted.';
-$lang['admin_themes_enable_confirm'] = 'Are you sure you want to enable the theme: <strong>%s</strong>?';
+$lang['admin_themes_enable_confirm'] = 'Are you sure you want to enable the theme: <b>%s</b>?';
 $lang['admin_themes_enable_error'] = 'Unable to activate theme.';
 $lang['admin_themes_enable_success'] = 'Theme successfully activated.';
 $lang['admin_themes_install'] = 'Install Theme';
@@ -502,14 +472,14 @@ $lang['admin_languages_default_success'] = 'Default language successfully change
 $lang['admin_languages_disable_all_confirm'] = 'Are you sure you want to disable all languages?';
 $lang['admin_languages_disable_all_error'] = 'Unable to disable all languages.';
 $lang['admin_languages_disable_all_success'] = 'All languages were successfully disabled.';
-$lang['admin_languages_disable_confirm'] = 'Are you sure you want to disable the language: <strong>%s</strong>?';
+$lang['admin_languages_disable_confirm'] = 'Are you sure you want to disable the language: <b>%s</b>?';
 $lang['admin_languages_disable_error'] = 'Unable to disable language.';
 $lang['admin_languages_disable_error_nochange'] = 'This language is already disabled.';
 $lang['admin_languages_disable_success'] = 'Language successfully disabled.';
 $lang['admin_languages_enable_all_confirm'] = 'Are you sure you want to enable all languages?';
 $lang['admin_languages_enable_all_error'] = 'Unable to enable all languages.';
 $lang['admin_languages_enable_all_success'] = 'All languages were successfully enabled.';
-$lang['admin_languages_enable_confirm'] = 'Are you sure you want to enable the language: <strong>%s</strong>?';
+$lang['admin_languages_enable_confirm'] = 'Are you sure you want to enable the language: <b>%s</b>?';
 $lang['admin_languages_enable_error'] = 'Unable to enable language.';
 $lang['admin_languages_enable_error_nochange'] = 'This language is already enabled.';
 $lang['admin_languages_enable_success'] = 'Language successfully enabled.';
