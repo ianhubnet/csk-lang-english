@@ -281,6 +281,7 @@ $lang['previous_page'] = 'Previous Page';
 $lang['privacy'] = 'Privacy';
 $lang['private'] = 'Private';
 $lang['profile'] = 'Profile';
+$lang['profile_picture'] = 'Profile Picture';
 $lang['profile_update_error'] = 'Unable to update profile.';
 $lang['profile_update_success'] = 'Profile successfully updated.';
 $lang['protected'] = 'Protected';
