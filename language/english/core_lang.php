@@ -379,7 +379,6 @@ $lang['unspecified'] = 'Unspecified';
 $lang['update'] = 'Update';
 $lang['updates'] = 'Updates';
 $lang['upload'] = 'Upload';
-$lang['upload_theme_tip'] = 'If you have a theme in a .zip format, you may install it by uploading it here.';
 $lang['uploads'] = 'Uploads';
 $lang['url'] = 'URL';
 $lang['username'] = 'Username';

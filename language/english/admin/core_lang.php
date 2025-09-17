@@ -395,6 +395,7 @@ $lang['admin_modules_enable_success'] = 'Module successfully activated.';
 $lang['admin_modules_install'] = 'Install Module';
 $lang['admin_modules_install_error'] = 'Unable to install module.';
 $lang['admin_modules_install_success'] = 'Module successfully installed.';
+$lang['admin_modules_install_tip'] = 'Modules add new features and functionality to your site. Browse available modules in the <a href="%s" target="_blank" rel="nofollow">marketplace</a> or upload one as a .zip package.';
 $lang['admin_modules_location_application'] = 'Private to this app';
 $lang['admin_modules_location_core'] = 'Shared across all apps';
 $lang['admin_modules_location_public'] = 'Public to this app';
@@ -429,6 +430,7 @@ $lang['admin_plugins_enable_success'] = 'Plugin successfully activated.';
 $lang['admin_plugins_install'] = 'Install Plugin';
 $lang['admin_plugins_install_error'] = 'Unable to install plugin.';
 $lang['admin_plugins_install_success'] = 'Plugin successfully installed.';
+$lang['admin_plugins_install_tip'] = 'Plugins extend existing features with extra options or integrations. Install from the <a href="%s" target="_blank" rel="nofollow">plugin directory</a> or upload a .zip file.';
 $lang['admin_plugins_location_application'] = 'Private to this app';
 $lang['admin_plugins_location_core'] = 'Shared across all apps';
 $lang['admin_plugins_location_public'] = 'Public to this app';
@@ -455,9 +457,11 @@ $lang['admin_themes_enable_success'] = 'Theme successfully activated.';
 $lang['admin_themes_install'] = 'Install Theme';
 $lang['admin_themes_install_error'] = 'Unable to install theme.';
 $lang['admin_themes_install_success'] = 'Theme successfully installed.';
+$lang['admin_themes_install_tip'] = 'Themes change your site’s appearance and layout. Choose from the <a href="%s" target="_blank" rel="nofollow">theme library</a> or upload a .zip file to install your own.';
 $lang['admin_themes_upload'] = 'Upload Theme';
 $lang['admin_themes_upload_error'] = 'Unable to upload theme.';
 $lang['admin_themes_upload_success'] = 'Theme successfully uploaded.';
+$lang['admin_themes_upload_tip'] = 'If you have a theme in a .zip format, you may install it by uploading it here.';
 
 /**
  * ---------------------------------------------------------------
