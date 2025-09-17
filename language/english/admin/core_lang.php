@@ -395,7 +395,7 @@ $lang['admin_modules_enable_success'] = 'Module successfully activated.';
 $lang['admin_modules_install'] = 'Install Module';
 $lang['admin_modules_install_error'] = 'Unable to install module.';
 $lang['admin_modules_install_success'] = 'Module successfully installed.';
-$lang['admin_modules_install_tip'] = 'Modules add new features and functionality to your site. Browse available modules in the <a href="%s" target="_blank" rel="nofollow">marketplace</a> or upload one as a .zip package.';
+$lang['admin_modules_install_tip'] = 'Modules add new features and functionality to your site. Browse available modules in the <a href="%s" target="_blank" rel="nofollow">module directory</a> or upload one as a .zip package.';
 $lang['admin_modules_location_application'] = 'Private to this app';
 $lang['admin_modules_location_core'] = 'Shared across all apps';
 $lang['admin_modules_location_public'] = 'Public to this app';
