@@ -47,3 +47,5 @@ $lang['form_validation_max_words'] = 'The {field} field must not exceed {param} 
 $lang['form_validation_exact_words'] = 'The {field} field must contain exactly {param} words.';
 $lang['form_validation_alpha_dash_space'] = 'The {field} field may only contain alpha-numeric characters, underscores, dashes, and spaces.';
 $lang['form_validation_strong_password'] = 'For your safety, please choose a stronger password.';
+$lang['form_validation_valid_captcha'] = 'The CAPTCHA code you entered is incorrect.';
+$lang['form_validation_valid_recaptcha'] = 'Please confirm that you are not a robot.';
