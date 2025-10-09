@@ -28,7 +28,6 @@ $lang['admin_plugins'] = 'Plugins';
 $lang['admin_reports'] = 'Activity Log';
 $lang['admin_system'] = 'System';
 $lang['admin_themes'] = 'Themes';
-$lang['admin_update_notice'] = '<a href="%2$s" target="_blank" rel="nofollow noopener">Version <b>%1$s</b> is now available!</a>';
 $lang['admin_users'] = 'Users';
 $lang['admin_view_site'] = 'View Site';
 $lang['settings_global'] = 'Global Settings';
@@ -80,6 +79,23 @@ $lang['admin_logs_error_disabled'] = 'Logging is not currently enabled.';
 $lang['admin_logs_error_empty'] = 'No logs found.';
 $lang['admin_logs_error_missing'] = 'Either the log file could not be located, or it was empty.';
 $lang['admin_logs_tip'] = 'Logging can rapidly create very large files. For live sites, think of deleting old ones.';
+
+/**
+ * ---------------------------------------------------------------
+ * Emails Section
+ * ---------------------------------------------------------------
+ * Language lines for the mail queue section.
+ */
+$lang['admin_emails_delete_confirm'] = 'Are you sure you want to delete selected emails?';
+$lang['admin_emails_delete_error'] = 'Unable to delete selected emails.';
+$lang['admin_emails_delete_success'] = 'Selected emails deleted successfully.';
+$lang['admin_emails_email_from'] = 'Sent From';
+$lang['admin_emails_email_to'] = 'Sent To';
+$lang['admin_emails_last_error'] = 'Last Error';
+$lang['admin_emails_mail_queue'] = 'Mail Queue';
+$lang['admin_emails_retry_confirm'] = 'Are you sure you want to resend selected emails?';
+$lang['admin_emails_retry_error'] = 'Unable to resend selected emails.';
+$lang['admin_emails_retry_success'] = 'Selected emails resent successfully.';
 
 /**
  * ---------------------------------------------------------------
@@ -249,7 +265,7 @@ $lang['time_reference_tip'] = 'Select the timezone for your site. All times will
 $lang['update_alert_enabled'] = 'Update Notice';
 $lang['update_alert_enabled_tip'] = 'Display a notice on the dashboard when an update is available.';
 $lang['update_api_endpoint'] = 'Update Server URL';
-$lang['update_api_endpoint_tip'] = 'The server URL used to check for new updates.';
+$lang['update_api_endpoint_tip'] = 'The update server URL. Leave empty to use the official update server (recommended).';
 $lang['update_backup_enabled'] = 'Backup Before Update';
 $lang['update_backup_enabled_tip'] = 'Automatically create a backup of the site before applying any updates.';
 $lang['update_check_enabled'] = 'Enable Update Check';
@@ -491,3 +507,20 @@ $lang['admin_languages_reload_confirm'] = 'Are you sure you want to reload the l
 $lang['admin_languages_reload_error'] = 'Unable to reload language list. Please try again.';
 $lang['admin_languages_reload_success'] = 'Language list successfully reloaded.';
 $lang['admin_languages_tip'] = 'Enable, disable, and set the site\'s default language. Enabled languages are available to site visitors.';
+
+/**
+ * ---------------------------------------------------------------
+ * License Section
+ * ---------------------------------------------------------------
+ * Language lines for license and updates section.
+ */
+$lang['update_available'] = 'New updates available!';
+$lang['update_license_domain_mismatch'] = 'License invalid for this domain.';
+$lang['update_license_expired'] = 'Your license has expired.';
+$lang['update_license_inactive'] = 'Your license is not active.';
+$lang['update_license_invalid'] = 'The provided license key is invalid.';
+$lang['update_license_missing'] = 'No license key or domain was provided.';
+$lang['update_license_not_found'] = 'No matching license was found.';
+$lang['update_license_not_set'] = 'No license key set.';
+$lang['update_license_revoked'] = 'Your license has been revoked.';
+$lang['update_not_available'] = 'Your website is up to date.';

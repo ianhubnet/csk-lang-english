@@ -1,5 +1,6 @@
 <?php
 
+$lang['activity_default'] = '<b>%s</b> performed <u>%s</u> on <b>%s</b>.';
 $lang['activity_auth_activate'] = '<b>%s</b> activated their account.';
 $lang['activity_auth_activate_link'] = '<b>%s</b> requested a new activation link.';
 $lang['activity_auth_change_email'] = '<b>%s</b> requested an email change.';
@@ -11,10 +12,14 @@ $lang['activity_auth_recover'] = '<b>%s</b> requested a password reset.';
 $lang['activity_auth_register'] = '<b>%s</b> registered account.';
 $lang['activity_auth_reset'] = '<b>%s</b> reset their password.';
 $lang['activity_auth_restore'] = '<b>%s</b> restored their deleted account.';
+$lang['activity_avatar_delete'] = '<b>%s</b> deleted their avatar.';
+$lang['activity_avatar_upload'] = '<b>%s</b> uploaded their avatar.';
 $lang['activity_backup_create'] = '<b>%s</b> created database backup: <b>%s</b>.';
 $lang['activity_backup_delete'] = '<b>%s</b> deleted database backup(s).';
 $lang['activity_backup_download'] = '<b>%s</b> downloaded database backup: <b>%s</b>.';
 $lang['activity_backup_purge'] = '<b>%s</b> purged the database.';
+$lang['activity_emails_delete'] = '<b>%s</b> deleted email queue entries.';
+$lang['activity_emails_retry'] = '<b>%s</b> resent failed emails.';
 $lang['activity_file_delete'] = '<b>%s</b> deleted file <b>%s</b>.';
 $lang['activity_file_update'] = '<b>%s</b> updated file <b>%s</b>.';
 $lang['activity_file_upload'] = '<b>%s</b> uploaded file <b>%s</b>.';
@@ -41,8 +46,6 @@ $lang['activity_settings_update'] = '<b>%s</b> updated site settings (<b>%s</b>)
 $lang['activity_theme_delete'] = '<b>%s</b> deleted theme <b>%s</b>.';
 $lang['activity_theme_enable'] = '<b>%s</b> enabled theme <b>%s</b>.';
 $lang['activity_theme_install'] = '<b>%s</b> installed theme <b>%s</b>.';
-$lang['activity_user_avatar_delete'] = '<b>%s</b> deleted their avatar.';
-$lang['activity_user_avatar_upload'] = '<b>%s</b> uploaded their avatar.';
 $lang['activity_user_ban'] = '<b>%s</b> banned user accounts.';
 $lang['activity_user_change_password'] = '<b>%s</b> changed their password.';
 $lang['activity_user_create'] = '<b>%s</b> created user account <b>%s</b>.';
