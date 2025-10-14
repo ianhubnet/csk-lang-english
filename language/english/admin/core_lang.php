@@ -26,13 +26,13 @@ $lang['admin_media'] = 'Media Library';
 $lang['admin_modules'] = 'Modules';
 $lang['admin_plugins'] = 'Plugins';
 $lang['admin_reports'] = 'Activity Log';
+$lang['admin_settings'] = 'System Settings';
+$lang['admin_sysinfo'] = 'System Information';
 $lang['admin_system'] = 'System';
 $lang['admin_themes'] = 'Themes';
+$lang['admin_updates'] = 'System Updates';
 $lang['admin_users'] = 'Users';
 $lang['admin_view_site'] = 'View Site';
-$lang['settings_global'] = 'Global Settings';
-$lang['settings_integrations'] = 'Integrations';
-$lang['settings_sysinfo'] = 'System Information';
 
 /**
  * ---------------------------------------------------------------
@@ -111,7 +111,9 @@ $lang['settings_discord'] = 'Discord Settings';
 $lang['settings_email'] = 'Email Settings';
 $lang['settings_facebook'] = 'Facebook Settings';
 $lang['settings_github'] = 'GitHub Settings';
+$lang['settings_global'] = 'Global Settings';
 $lang['settings_google'] = 'Google Settings';
+$lang['settings_integrations'] = 'Integrations';
 $lang['settings_linkedin'] = 'LinkedIn Settings';
 $lang['settings_manifest'] = 'Manifest Settings';
 $lang['settings_updates'] = 'Update Settings';
