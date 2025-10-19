@@ -357,6 +357,7 @@ $lang['admin_users_remove_success'] = 'Account and all its data successfully del
 $lang['admin_users_restore_confirm'] = 'Are you sure you want to restore this user?';
 $lang['admin_users_restore_error'] = 'Unable to restore account.';
 $lang['admin_users_restore_success'] = 'User successfully restored.';
+$lang['admin_users_search'] = 'Search by name, username, or email...';
 $lang['admin_users_unban_confirm'] = 'Are you sure you want to unban this user?';
 $lang['admin_users_unban_error'] = 'Unable to unban user.';
 $lang['admin_users_unban_success'] = 'User successfully unbanned.';
