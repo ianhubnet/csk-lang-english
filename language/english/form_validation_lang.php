@@ -41,7 +41,6 @@ $lang['form_validation_user_admin'] = 'You do not have access to the dashboard s
 $lang['form_validation_user_exists'] = 'No user was found with that username or email address.';
 $lang['form_validation_is_found'] = 'Unable to find this {field}.';
 $lang['form_validation_valid_phone'] = 'The {field} field must contain a valid phone number.';
-$lang['form_validation_check_2fa'] = 'The supplied two-factor authentication code is invalid.';
 $lang['form_validation_min_words'] = 'The {field} field must contain at least {param} words.';
 $lang['form_validation_max_words'] = 'The {field} field must not exceed {param} words.';
 $lang['form_validation_exact_words'] = 'The {field} field must contain exactly {param} words.';
