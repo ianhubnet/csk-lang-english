@@ -485,6 +485,22 @@ $lang['admin_themes_upload_tip'] = 'If you have a theme in a .zip format, you ma
 
 /**
  * ---------------------------------------------------------------
+ * Menus Section
+ * ---------------------------------------------------------------
+ * Language lines for the menu locations section.
+ */
+$lang['admin_menus'] = 'Menus';
+$lang['admin_menus_assign_error'] = 'Unable to update menu locations.';
+$lang['admin_menus_assign_success'] = 'Menu locations updated successfully.';
+$lang['admin_menus_header'] = 'Your current theme supports <b>%s</b> menu locations.';
+$lang['admin_menus_location'] = 'Location';
+$lang['admin_menus_locations'] = 'Menu Locations';
+$lang['admin_menus_manage'] = 'Manage Menus';
+$lang['admin_menus_menu'] = 'Assigned Menu';
+$lang['admin_menus_none'] = '&#151; None &#151;';
+
+/**
+ * ---------------------------------------------------------------
  * Languages Section
  * ---------------------------------------------------------------
  * Language lines for the languages management section.
