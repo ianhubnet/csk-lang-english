@@ -6,7 +6,6 @@ on:
       - main
     paths:
       - 'language/**'
-      - 'system/**'
 
 jobs:
   notify-parent:
