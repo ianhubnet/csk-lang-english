@@ -10,6 +10,19 @@ CSK uses a modular translation system, where each language is maintained as an i
 * Organized following CodeIgniter's `/language/english/` structure.
 * Acts as the **reference base** for all other translations.
 
+## Structure
+
+Each CSK translation must follow the naming convention `csk-lang-<language>` and contain standard CodeIgniter files inside `language/<language>/ci3/` and CSK files inside `language/<language>/`. Admin files should be put inside `language/<languages>/admin/`.
+
+## Contribution
+If you want to translate CSK into another language:
+1. Fork this repository.
+2. Rename it to follow `csk-lang-<yourlanguage>`.
+3. Add your translations.
+4. Push to your own repo — CSK automation will take care of the rest.
+
+> ⚙️ CSK automatically detects new translations and adds them to the [csk-languages](https://github.com/ianhubnet/csk-languages) hub.
+
 ## 🌍 Related Repositories
 
 This repository belongs to the [`csk-languages`](https://github.com/ianhubnet/csk-languages) collection:
