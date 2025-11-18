@@ -123,8 +123,6 @@ $lang['settings_users'] = 'Users Settings';
 // Settings Fields & Help Texts
 $lang['admin_email'] = 'Admin Email';
 $lang['admin_email_tip'] = 'The email address to which site notices are sent.';
-$lang['alert_login_failed_tip'] = 'Alert users about any failed login attempts to their account.';
-$lang['alert_login_success_tip'] = 'Notify users about any successful login to their account.';
 $lang['allow_multi_session'] = 'Allow multiple sessions.';
 $lang['allow_multi_session_tip'] = 'Whether to allow multiple users to log in to the same account at the same time.';
 $lang['allow_oauth'] = 'Third-party Login';
@@ -195,6 +193,8 @@ $lang['linkedin_client_id'] = 'Client ID';
 $lang['linkedin_client_id_tip'] = 'Enter your LinkedIn application client ID.';
 $lang['linkedin_client_secret'] = 'Client Secret';
 $lang['linkedin_client_secret_tip'] = 'Enter your LinkedIn application secret key.';
+$lang['login_alert_failure_tip'] = 'Alert users about any failed login attempts to their account.';
+$lang['login_alert_success_tip'] = 'Notify users about any successful login to their account.';
 $lang['login_fail_allowed_attempts'] = 'Allowed login attempts';
 $lang['login_fail_allowed_attempts_tip'] = 'Number of failed attempts before short lockout.';
 $lang['login_fail_allowed_lockouts'] = 'Allowed login lockouts';
@@ -530,10 +530,13 @@ $lang['admin_languages_tip'] = 'Enable, disable, and set the site\'s default lan
 
 /**
  * ---------------------------------------------------------------
- * License Section
+ * Updates & License Section
  * ---------------------------------------------------------------
- * Language lines for license and updates section.
+ * Language lines for updates and license and updates section.
  */
+$lang['admin_update_current'] = 'Current';
+$lang['admin_update_latest'] = 'Latest';
+$lang['admin_update_package'] = 'Package';
 $lang['update_available'] = 'New updates available!';
 $lang['update_license_domain_mismatch'] = 'License invalid for this domain.';
 $lang['update_license_expired'] = 'Your license has expired.';
