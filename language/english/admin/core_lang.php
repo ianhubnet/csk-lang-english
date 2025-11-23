@@ -90,12 +90,14 @@ $lang['admin_emails_delete_confirm'] = 'Are you sure you want to delete selected
 $lang['admin_emails_delete_error'] = 'Unable to delete selected emails.';
 $lang['admin_emails_delete_success'] = 'Selected emails deleted successfully.';
 $lang['admin_emails_email_from'] = 'Sent From';
-$lang['admin_emails_email_to'] = 'Sent To';
-$lang['admin_emails_last_error'] = 'Last Error';
 $lang['admin_emails_mail_queue'] = 'Mail Queue';
-$lang['admin_emails_retry_confirm'] = 'Are you sure you want to resend selected emails?';
-$lang['admin_emails_retry_error'] = 'Unable to resend selected emails.';
-$lang['admin_emails_retry_success'] = 'Selected emails resent successfully.';
+$lang['admin_emails_mailer'] = 'Mass Mail';
+$lang['admin_emails_send_error'] = 'Failed to queue the email. Please try again.';
+$lang['admin_emails_send_none'] = 'No users match your selected criteria.';
+$lang['admin_emails_send_success'] = 'The email has been queued and will be sent shortly.';
+$lang['admin_emails_send_to_banned'] = 'Send to banned users.';
+$lang['admin_emails_send_to_deleted'] = 'Send to deleted users.';
+$lang['admin_emails_send_to_disabled'] = 'Send to inactive users.';
 
 /**
  * ---------------------------------------------------------------
@@ -315,6 +317,7 @@ $lang['sysinfo_safe_mode'] = 'Safe Mode';
 $lang['sysinfo_session.auto_start'] = 'Session Auto Start';
 $lang['sysinfo_session.save_path'] = 'Session Save Path';
 $lang['sysinfo_short_open_tag'] = 'Short Open Tag';
+$lang['sysinfo_codeigniter_version'] = 'CodeIgniter Version';
 $lang['sysinfo_skeleton_version'] = 'Skeleton Version';
 $lang['sysinfo_user_agent'] = 'User Agent';
 $lang['sysinfo_web_server'] = 'Web Server';
@@ -347,10 +350,6 @@ $lang['admin_users_enable_error'] = 'Unable to activate user account.';
 $lang['admin_users_enable_success'] = 'Account successfully activated.';
 $lang['admin_users_groups'] = 'Groups';
 $lang['admin_users_logged'] = 'Logged-in Users';
-$lang['admin_users_mailer'] = 'Mass Mail';
-$lang['admin_users_mailer_to_banned'] = 'Send to banned users.';
-$lang['admin_users_mailer_to_deleted'] = 'Send to deleted users.';
-$lang['admin_users_mailer_to_disabled'] = 'Send to inactive users.';
 $lang['admin_users_manage'] = 'Manage Users';
 $lang['admin_users_remove_confirm'] = 'Are you sure you want to permanently delete this user and all his/her data?';
 $lang['admin_users_remove_error'] = 'Unable to permanently delete the users and all their data.';
@@ -362,6 +361,9 @@ $lang['admin_users_search'] = 'Search by name, username, or email...';
 $lang['admin_users_unban_confirm'] = 'Are you sure you want to unban this user?';
 $lang['admin_users_unban_error'] = 'Unable to unban user.';
 $lang['admin_users_unban_success'] = 'User successfully unbanned.';
+$lang['admin_users_unlock_confirm'] = 'Are you sure you want to unlock selected users?';
+$lang['admin_users_unlock_error'] = 'Unable to unlock selected users.';
+$lang['admin_users_unlock_success'] = 'Selected users successfully unlocked.';
 
 /**
  * ---------------------------------------------------------------
