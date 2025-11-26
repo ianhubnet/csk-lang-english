@@ -186,6 +186,7 @@ $lang['hidden_tag'] = '[hidden]';
 $lang['home'] = 'Home';
 $lang['homepage'] = 'Homepage';
 $lang['image'] = 'Image';
+$lang['imgur'] = 'Imgur';
 $lang['important'] = 'Important';
 $lang['important_notes'] = 'Important Notes';
 $lang['inactive'] = 'Inactive';

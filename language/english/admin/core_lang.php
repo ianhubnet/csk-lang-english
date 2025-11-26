@@ -115,6 +115,7 @@ $lang['settings_facebook'] = 'Facebook Settings';
 $lang['settings_github'] = 'GitHub Settings';
 $lang['settings_global'] = 'Global Settings';
 $lang['settings_google'] = 'Google Settings';
+$lang['settings_imgur'] = 'Imgur Settings';
 $lang['settings_integrations'] = 'Integrations';
 $lang['settings_linkedin'] = 'LinkedIn Settings';
 $lang['settings_manifest'] = 'Manifest Settings';
