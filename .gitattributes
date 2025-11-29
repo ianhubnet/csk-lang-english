@@ -11,10 +11,17 @@ CITATION.cff export-ignore
 
 * text=auto
 *.* text eol=lf
-*.dist text eol=crlf
 
 # GitHub
 .github text
 .gitattributes text
 *.md text
-*.xml text
+
+# Ignore OS / IDE files from export
+.DS_Store export-ignore
+Thumbs.db export-ignore
+*.log export-ignore
+
+# Zip release structure help (optional, but useful)
+zip.sh export-ignore
+release.yml export-ignore
