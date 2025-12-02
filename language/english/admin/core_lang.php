@@ -126,6 +126,8 @@ $lang['settings_users'] = 'Users Settings';
 // Settings Fields & Help Texts
 $lang['admin_email'] = 'Admin Email';
 $lang['admin_email_tip'] = 'The email address to which site notices are sent.';
+$lang['allow_2fa_trust'] = 'Allow users to trust devices';
+$lang['allow_2fa_trust_tip'] = 'If enabled, users can mark a device as trusted to skip 2FA for 30 days. Disable this to require 2FA on every login.';
 $lang['allow_multi_session'] = 'Allow multiple sessions.';
 $lang['allow_multi_session_tip'] = 'Whether to allow multiple users to log in to the same account at the same time.';
 $lang['allow_oauth'] = 'Third-party Login';

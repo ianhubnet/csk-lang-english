@@ -395,6 +395,7 @@ $lang['two_factor_enable_error'] = 'Unable to enable two-factor authentication.'
 $lang['two_factor_enable_success'] = 'Two-factor authentication successfully enabled.';
 $lang['two_factor_send_error'] = 'Unable to send your two-factor authentication code.';
 $lang['two_factor_send_success'] = 'Your two-factor authentication code has been sent at your email address.';
+$lang['two_factor_trust'] = 'Trust this device for 30 days';
 $lang['type'] = 'Type';
 $lang['unban'] = 'Unban';
 $lang['unlock'] = 'Unkock';
