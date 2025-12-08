@@ -19,7 +19,6 @@ $lang['activity_backup_delete'] = '<b>%s</b> deleted database backup(s).';
 $lang['activity_backup_download'] = '<b>%s</b> downloaded database backup: <b>%s</b>.';
 $lang['activity_backup_purge'] = '<b>%s</b> purged the database.';
 $lang['activity_emails_delete'] = '<b>%s</b> deleted email queue entries.';
-$lang['activity_emails_retry'] = '<b>%s</b> resent failed emails.';
 $lang['activity_file_delete'] = '<b>%s</b> deleted file <b>%s</b>.';
 $lang['activity_file_update'] = '<b>%s</b> updated file <b>%s</b>.';
 $lang['activity_file_upload'] = '<b>%s</b> uploaded file <b>%s</b>.';
