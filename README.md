@@ -21,11 +21,11 @@ If you want to translate CSK into another language:
 3. Add your translations.
 4. Push to your own repo — CSK automation will take care of the rest.
 
-> ⚙️ CSK automatically detects new translations and adds them to the [csk-languages](https://github.com/ianhubnet/csk-languages) hub.
+> ⚙️ CSK automatically detects new translations and adds them to the [csk-packages](https://github.com/ianhubnet/csk-packages) hub.
 
 ## 🌍 Related Repositories
 
-This repository belongs to the [`csk-languages`](https://github.com/ianhubnet/csk-languages) collection:
+This repository belongs to the [`csk-packages`](https://github.com/ianhubnet/csk-packages) collection:
 
 * `english` — ✅ Public (default language)
 * `arabic` — 🔒 Private
