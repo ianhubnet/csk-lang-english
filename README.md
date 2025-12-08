@@ -1,4 +1,4 @@
-# 🇬🇧 CSK Core Language Files — English
+# 🇺🇸 CSK Core Language Files — English
 
 This repository contains the **default English language pack** for [CodeIgniter Skeleton (CSK)](https://github.com/ianhubnet).
 
