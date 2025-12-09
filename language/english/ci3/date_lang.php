@@ -16,14 +16,13 @@ $lang['date_second'] = 'Second';
 $lang['date_seconds'] = 'Seconds';
 
 $lang['date_just_now'] = 'just now';
-$lang['date_one_minute_ago'] = '1 minute ago';
-$lang['date_num_minutes_ago'] = '%d minutes ago';
-$lang['date_num_hours_ago'] = '%d hours ago';
-$lang['date_yesterday'] = 'yesterday';
-$lang['date_num_days_ago'] = '%d days ago';
-$lang['date_num_weeks_ago'] = '%d weeks ago';
-$lang['date_num_months_ago'] = '%d months ago';
-$lang['date_num_years_ago'] = '%d years ago';
+$lang['date_seconds_ago'] = '=1{# second ago} other{# seconds ago}';
+$lang['date_minutes_ago'] = '=1{# minute ago} other{# minutes ago}';
+$lang['date_hours_ago'] = '=1{# hour ago} other{# hours ago}';
+$lang['date_days_ago'] = '=1{yesterday} other{# days ago}';
+$lang['date_weeks_ago'] = '=1{# week ago} other{# weeks ago}';
+$lang['date_months_ago'] = '=1{# month ago} other{# months ago}';
+$lang['date_years_ago'] = '=1{# year ago} other{# years ago}';
 
 $lang['date_su'] = 'Su';
 $lang['date_mo'] = 'Mo';
