@@ -2,15 +2,18 @@
 
 $lang['lang_arabic'] = 'Arabic';
 $lang['lang_azerbaijani'] = 'Azerbaijani';
+$lang['lang_belarusian'] = 'Belarusian';
 $lang['lang_bengali'] = 'Bengali';
 $lang['lang_brazilian'] = 'Portuguese (Brazil)';
 $lang['lang_bulgarian'] = 'Bulgarian';
+$lang['lang_catalan'] = 'Catalan';
 $lang['lang_chinese'] = 'Chinese (Simplified)';
 $lang['lang_croatian'] = 'Croatian';
 $lang['lang_czech'] = 'Czech';
 $lang['lang_danish'] = 'Danish';
 $lang['lang_dutch'] = 'Dutch';
 $lang['lang_english'] = 'English';
+$lang['lang_estonian'] = 'Estonian';
 $lang['lang_filipino'] = 'Filipino';
 $lang['lang_finnish'] = 'Finnish';
 $lang['lang_french'] = 'French';
@@ -42,3 +45,4 @@ $lang['lang_turkish'] = 'Turkish';
 $lang['lang_ukrainian'] = 'Ukrainian';
 $lang['lang_urdu'] = 'Urdu';
 $lang['lang_vietnamese'] = 'Vietnamese';
+$lang['lang_welsh'] = 'Welsh';

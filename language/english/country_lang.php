@@ -243,6 +243,7 @@ $lang['country_vn'] = 'Vietnam';
 $lang['country_vu'] = 'Vanuatu';
 $lang['country_wf'] = 'Wallis & Futuna';
 $lang['country_ws'] = 'Samoa';
+$lang['country_xk'] = 'Kosovo';
 $lang['country_ye'] = 'Yemen';
 $lang['country_yt'] = 'Mayotte';
 $lang['country_za'] = 'South Africa';
