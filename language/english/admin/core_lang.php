@@ -522,6 +522,7 @@ $lang['admin_languages_disable_all_error'] = 'Unable to disable all languages.';
 $lang['admin_languages_disable_all_success'] = 'All languages were successfully disabled.';
 $lang['admin_languages_disable_confirm'] = 'Are you sure you want to disable the language: <b>%s</b>?';
 $lang['admin_languages_disable_error'] = 'Unable to disable language.';
+$lang['admin_languages_disable_error_default'] = 'Default language cannot be disabled.';
 $lang['admin_languages_disable_error_nochange'] = 'This language is already disabled.';
 $lang['admin_languages_disable_success'] = 'Language successfully disabled.';
 $lang['admin_languages_enable_all_confirm'] = 'Are you sure you want to enable all languages?';
