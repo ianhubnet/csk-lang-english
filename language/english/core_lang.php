@@ -402,7 +402,6 @@ $lang['unlock'] = 'Unkock';
 $lang['unspecified'] = 'Unspecified';
 $lang['up_to_date'] = 'Up to date';
 $lang['update'] = 'Update';
-$lang['update_available'] = 'Update available';
 $lang['updates'] = 'Updates';
 $lang['upload'] = 'Upload';
 $lang['uploads'] = 'Uploads';
