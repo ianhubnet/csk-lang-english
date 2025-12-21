@@ -396,7 +396,6 @@ $lang['admin_media_file_delete_error'] = 'Unable to delete file.';
 $lang['admin_media_file_delete_success'] = 'File successfully deleted.';
 $lang['admin_media_file_update_error'] = 'Unable to update file.';
 $lang['admin_media_file_update_success'] = 'File successfully updated.';
-$lang['admin_media_url_copied'] = 'URL Copied!';
 
 /**
  * ---------------------------------------------------------------
