@@ -15,11 +15,6 @@ jobs:
     name: Package and Release
     runs-on: ubuntu-latest
 
-    outputs:
-      tag: ${{ steps.vars.outputs.tag }}
-      name: ${{ steps.vars.outputs.name }}
-      zip: ${{ steps.vars.outputs.zip }}
-
     steps:
       # 1. Checkout code
       - name: 1️⃣ Checkout code
