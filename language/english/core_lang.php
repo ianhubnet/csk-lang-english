@@ -350,6 +350,7 @@ $lang['search_dots'] = 'Search...';
 $lang['security_alert'] = 'Security Alert';
 $lang['select'] = 'Select';
 $lang['select_all'] = 'Select All';
+$lang['select_option'] = '&#151; Select an option &#151;';
 $lang['select_user'] = '&#151; Select user &#151;';
 $lang['send'] = 'Send';
 $lang['send_link'] = 'Send link';
