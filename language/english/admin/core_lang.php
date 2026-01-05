@@ -122,6 +122,7 @@ $lang['settings_manifest'] = 'Manifest Settings';
 $lang['settings_updates'] = 'Update Settings';
 $lang['settings_upload'] = 'Uploads Settings';
 $lang['settings_users'] = 'Users Settings';
+$lang['settings_website'] = 'Website Settings';
 
 // Settings Fields & Help Texts
 $lang['admin_email'] = 'Admin Email';
