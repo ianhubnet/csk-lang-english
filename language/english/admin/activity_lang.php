@@ -29,6 +29,7 @@ $lang['activity_language_enable'] = '<b>%s</b> enabled language <b>%s</b>.';
 $lang['activity_language_enable_all'] = '<b>%s</b> enabled all languages.';
 $lang['activity_logs_clear'] = '<b>%s</b> cleared activity logs.';
 $lang['activity_logs_delete'] = '<b>%s</b> deleted log files.';
+$lang['activity_logs_download'] = '<b>%s</b> downloaded log file: <b>%s</b>.';
 $lang['activity_module_delete'] = '<b>%s</b> deleted module: <b>%s</b>.';
 $lang['activity_module_disable'] = '<b>%s</b> disabled module: <b>%s</b>.';
 $lang['activity_module_disable_all'] = '<b>%s</b> disabled all modules.';
