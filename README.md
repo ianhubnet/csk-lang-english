@@ -1,12 +1,12 @@
-# 🇺🇸 CSK Core Language Files — English (US)
+# 🇺🇸 CiSkeleton Core Language Files — English (US)
 
-This repository contains the **default English language pack** for [CodeIgniter Skeleton (CSK)](https://github.com/ianhubnet).
+This repository contains the **default English language pack** for [CiSkeleton (CSK)](https://github.com/ianhubnet).
 
 CSK uses a modular translation system, where each language is maintained as an independent package for easier updates and community contributions.
 
 ## 📦 Contents
 
-* All default language files used by the CSK Core and Admin Interface.
+* All default language files used by the CiSkeleton Core and Admin Interface.
 * Organized following CodeIgniter's `/language/english/` structure.
 * Acts as the **reference base** for all other translations.
 
@@ -35,6 +35,6 @@ This repository belongs to the [`csk-packages`](https://github.com/ianhubnet/csk
 
 …and more!
 
-## 📖 About CodeIgniter Skeleton (CSK)
+## 📖 About CiSkeleton (CSK)
 
-[CodeIgniter Skeleton (CSK)](https://github.com/ianhubnet) is a complete, modern foundation built on CodeIgniter 3 — offering modular architecture, multilingual support, an admin panel, and much more.
+[CiSkeleton (CSK)](https://github.com/ianhubnet) is a complete, modern foundation built on CodeIgniter 3 — offering modular architecture, multilingual support, an admin panel, and much more.
