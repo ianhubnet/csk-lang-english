@@ -288,7 +288,6 @@ $lang['sysinfo_safe_mode'] = 'Safe Mode';
 $lang['sysinfo_session.auto_start'] = 'Session Auto Start';
 $lang['sysinfo_session.save_path'] = 'Session Save Path';
 $lang['sysinfo_short_open_tag'] = 'Short Open Tag';
-$lang['sysinfo_codeigniter_version'] = 'CodeIgniter Version';
 $lang['sysinfo_skeleton_version'] = 'Skeleton Version';
 $lang['sysinfo_user_agent'] = 'User Agent';
 $lang['sysinfo_web_server'] = 'Web Server';
