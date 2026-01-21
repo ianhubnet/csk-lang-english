@@ -2,7 +2,7 @@
 
 /**
  * ------------------------------------------------------------------------
- * CI Skeleton Admin Language File
+ * CiSkeleton Admin Language File
  * ------------------------------------------------------------------------
  * This file contains all language lines used in the CSK admin dashboard.
  * Each section is separated by comments for easier navigation and maintenance.
