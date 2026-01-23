@@ -185,6 +185,7 @@ $lang['go_homepage'] = 'Go to homepage';
 $lang['google'] = 'Google';
 $lang['help'] = 'Help';
 $lang['hidden'] = 'Hidden';
+$lang['hidden_security'] = 'This value is hidden for security.';
 $lang['hidden_tag'] = '[hidden]';
 $lang['home'] = 'Home';
 $lang['homepage'] = 'Homepage';
