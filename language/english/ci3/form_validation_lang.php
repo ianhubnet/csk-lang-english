@@ -36,6 +36,7 @@ $lang['form_validation_regex_match'] = 'The {field} field is not in the correct 
 $lang['form_validation_required'] = 'The {field} field is required.';
 $lang['form_validation_required_with'] = 'The {field} field is required when {param} is present.';
 $lang['form_validation_required_without'] = 'The {field} field is required when {param} is not present.';
+$lang['form_validation_semantic_version'] = 'The {field} field must contain a valid semantic version.';
 $lang['form_validation_strong_password'] = 'For your safety, please choose a stronger password.';
 $lang['form_validation_unique_email'] = 'This email address is already in use.';
 $lang['form_validation_unique_username'] = 'This username is not available.';
