@@ -27,6 +27,7 @@ $lang['account_enable_success'] = 'Account successfully activated.';
 $lang['account_locked_error'] = 'Your account is temporarily locked.';
 $lang['account_missing_error'] = 'This user does not exist.';
 $lang['action'] = 'Action';
+$lang['action_irreversible'] = 'This action cannot be undone.';
 $lang['actions'] = 'Actions';
 $lang['activate'] = 'Activate';
 $lang['activation_link_sent'] = 'The activation link has been sent to you.';
