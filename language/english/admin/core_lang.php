@@ -21,6 +21,7 @@ $lang['admin_extensions'] = 'Extensions';
 $lang['admin_footer_left'] = 'Thank you for creating with <a href="%s" target="_blank" rel="noopener">%s</a>.';
 $lang['admin_footer_right'] = 'Version: <b>%s</b>';
 $lang['admin_help'] = 'Help';
+$lang['admin_languages'] = 'Languages';
 $lang['admin_logs'] = 'System Logs';
 $lang['admin_media'] = 'Media Library';
 $lang['admin_modules'] = 'Modules';
