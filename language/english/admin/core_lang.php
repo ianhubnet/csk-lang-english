@@ -515,15 +515,20 @@ $lang['admin_languages_tip'] = 'Enable, disable, and set the site\'s default lan
  * ---------------------------------------------------------------
  * Language lines for updates and license and updates section.
  */
-$lang['admin_update_current'] = 'Current';
-$lang['admin_update_latest'] = 'Latest';
+$lang['admin_update_current_version'] = 'Current version';
+$lang['admin_update_latest_version'] = 'Latest version';
 $lang['admin_update_package'] = 'Package';
 $lang['update_available'] = 'New updates available!';
+$lang['update_check_now'] = 'Check now';
+$lang['update_check_now_confirm'] = 'Are you sure you want to check for updates now?';
+$lang['update_check_now_error'] = 'Unable to run the update check at this time.';
+$lang['update_check_now_success'] = 'Update check completed successfully.';
 $lang['update_interval_3days'] = 'Every 3 Days';
 $lang['update_interval_biweekly'] = 'Every 2 Weeks';
 $lang['update_interval_daily'] = 'Every Day';
 $lang['update_interval_monthly'] = 'Once a Month';
 $lang['update_interval_weekly'] = 'Once a Week';
+$lang['update_last_check'] = 'Last check: %s';
 $lang['update_license_domain_mismatch'] = 'License invalid for this domain.';
 $lang['update_license_expired'] = 'Your license has expired.';
 $lang['update_license_inactive'] = 'Your license is not active.';
@@ -532,4 +537,5 @@ $lang['update_license_missing'] = 'No license key or domain was provided.';
 $lang['update_license_not_found'] = 'No matching license was found.';
 $lang['update_license_not_set'] = 'No license key set.';
 $lang['update_license_revoked'] = 'Your license has been revoked.';
+$lang['update_next_check'] = 'Next scheduled check: %s';
 $lang['update_not_available'] = 'Your website is up to date.';
