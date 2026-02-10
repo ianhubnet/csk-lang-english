@@ -327,6 +327,7 @@ $lang['reject'] = 'Reject';
 $lang['reload'] = 'Reload';
 $lang['remember_me'] = 'Remember me';
 $lang['remove'] = 'Remove';
+$lang['request_limit_exceeded_retry'] = 'Request limit exceeded. Please try again in %s.';
 $lang['required_field_error'] = 'The %s field is required.';
 $lang['required_fields_error'] = 'All fields are required.';
 $lang['resend_activation_link'] = 'Resend Activation Link';
