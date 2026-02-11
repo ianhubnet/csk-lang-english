@@ -373,6 +373,9 @@ $lang['admin_media_file_update_success'] = 'File successfully updated.';
  * ---------------------------------------------------------------
  * Language lines for the modules management section.
  */
+$lang['admin_install_location_app'] = 'This application only';
+$lang['admin_install_location_core'] = 'All applications';
+$lang['admin_install_location_select'] = '&#151; Select location &#151;';
 $lang['admin_modules_add'] = 'Add Module';
 $lang['admin_modules_delete_confirm'] = 'Are you sure you want to delete the module: <b>%s</b>?';
 $lang['admin_modules_delete_error'] = 'Unable to delete the module.';
@@ -393,10 +396,6 @@ $lang['admin_modules_install'] = 'Install Module';
 $lang['admin_modules_install_error'] = 'Unable to install module.';
 $lang['admin_modules_install_success'] = 'Module successfully installed.';
 $lang['admin_modules_install_tip'] = 'Modules add new features and functionality to your site. Browse available modules in the <a href="%s" target="_blank" rel="noopener">module directory</a> or upload one as a .zip package.';
-$lang['admin_modules_location_application'] = 'Private to this app';
-$lang['admin_modules_location_core'] = 'Shared across all apps';
-$lang['admin_modules_location_public'] = 'Public to this app';
-$lang['admin_modules_location_select'] = '&#151; Select location &#151;';
 $lang['admin_modules_upload'] = 'Upload Module';
 $lang['admin_modules_upload_error'] = 'Unable to upload module.';
 $lang['admin_modules_upload_success'] = 'Module successfully uploaded.';
@@ -428,10 +427,6 @@ $lang['admin_plugins_install'] = 'Install Plugin';
 $lang['admin_plugins_install_error'] = 'Unable to install plugin.';
 $lang['admin_plugins_install_success'] = 'Plugin successfully installed.';
 $lang['admin_plugins_install_tip'] = 'Plugins extend existing features with extra options or integrations. Install from the <a href="%s" target="_blank" rel="noopener">plugin directory</a> or upload a .zip file.';
-$lang['admin_plugins_location_application'] = 'Private to this app';
-$lang['admin_plugins_location_core'] = 'Shared across all apps';
-$lang['admin_plugins_location_public'] = 'Public to this app';
-$lang['admin_plugins_location_select'] = '&#151; Select location &#151;';
 $lang['admin_plugins_upload'] = 'Upload Plugin';
 $lang['admin_plugins_upload_error'] = 'Unable to upload plugin.';
 $lang['admin_plugins_upload_success'] = 'Plugin successfully uploaded.';
