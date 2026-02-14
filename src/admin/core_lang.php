@@ -499,9 +499,6 @@ $lang['admin_languages_enable_confirm'] = 'Are you sure you want to enable the l
 $lang['admin_languages_enable_error'] = 'Unable to enable language.';
 $lang['admin_languages_enable_error_nochange'] = 'This language is already enabled.';
 $lang['admin_languages_enable_success'] = 'Language successfully enabled.';
-$lang['admin_languages_reload_confirm'] = 'Are you sure you want to reload the language list?';
-$lang['admin_languages_reload_error'] = 'Unable to reload language list. Please try again.';
-$lang['admin_languages_reload_success'] = 'Language list successfully reloaded.';
 $lang['admin_languages_tip'] = 'Enable, disable, and set the site\'s default language. Enabled languages are available to site visitors.';
 
 /**
