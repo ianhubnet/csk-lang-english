@@ -171,6 +171,7 @@ $lang['admin_media_file_delete_error'] = 'Failed to delete file.';
 $lang['admin_media_file_delete_success'] = 'File successfully deleted.';
 $lang['admin_media_file_update_error'] = 'Failed to update file.';
 $lang['admin_media_file_update_success'] = 'File successfully updated.';
+$lang['admin_media_search'] = 'Search by name, description, or filename...';
 
 /**
  * ---------------------------------------------------------------
