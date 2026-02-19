@@ -25,13 +25,11 @@ $lang['settings_users'] = 'Users Settings';
 $lang['settings_website'] = 'Website Settings';
 
 // Settings Fields & Help Texts
-$lang['404_ban_duration'] = '404 Ban Duration';
 $lang['404_ban_duration_tip'] = 'How long the IP is blocked after exceeding the 404 limit (hours).';
 $lang['404_interval'] = '404 Interval';
 $lang['404_interval_tip'] = 'Time window in seconds for counting repeated 404s.';
 $lang['404_protection'] = 'Enable 404 Protection';
 $lang['404_protection_tip'] = 'Turn on monitoring of repeated 404 errors per IP.';
-$lang['404_threshold'] = '404 Strike Limit';
 $lang['404_threshold_tip'] = 'Number of 404 errors an IP can make within the interval before being banned.';
 $lang['admin_email'] = 'Admin Email';
 $lang['admin_email_tip'] = 'The email address to which site notices are sent.';
@@ -165,13 +163,11 @@ $lang['update_email_enabled'] = 'Notify by Email';
 $lang['update_email_enabled_tip'] = 'Enable this to receive an email notification when a new update is available.';
 $lang['upload_year_month'] = 'Year/Month based folders';
 $lang['upload_year_month_tip'] = 'Organize uploads into year/month based folders.';
-$lang['uri_ban_duration'] = 'URI Ban Duration';
 $lang['uri_ban_duration_tip'] = 'How long the IP is banned after exceeding the URI strike limit (days).';
 $lang['uri_postpone_expiry'] = 'URI Queue Duration';
 $lang['uri_postpone_expiry_tip'] = 'How long a queued IP stays pending if it has not reached the strike limit (days).';
 $lang['uri_protection'] = 'Enable URI Protection';
 $lang['uri_protection_tip'] = 'Turn on monitoring of suspicious or dangerous URIs.';
-$lang['uri_strike_threshold'] = 'URI Strike Limit';
 $lang['uri_strike_threshold_tip'] = 'Number of suspicious URI accesses before the IP is banned.';
 $lang['use_captcha'] = 'Enable CAPTCHA';
 $lang['use_captcha_tip'] = 'Whether to enable CAPTCHA on some site forms.';

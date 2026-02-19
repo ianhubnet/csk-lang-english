@@ -115,6 +115,7 @@ $lang['date'] = 'Date';
 $lang['date_created_at'] = 'Created At';
 $lang['date_deleted_at'] = 'Deleted At';
 $lang['date_expires_at'] = 'Expires At';
+$lang['date_expires_in'] = 'Expires In';
 $lang['date_joined_at'] = 'Joined At';
 $lang['date_modified_at'] = 'Modified At';
 $lang['date_suspended_at'] = 'Suspended At';
