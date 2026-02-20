@@ -254,7 +254,6 @@ $lang['message'] = 'Message';
 $lang['message_send_error'] = 'Unable to send message.';
 $lang['message_send_success'] = 'Message successfully sent.';
 $lang['meta_description'] = 'Meta Description';
-$lang['meta_keywords'] = 'Meta Keywords';
 $lang['meta_title'] = 'Meta Title';
 $lang['metadata'] = 'Metadata';
 $lang['microsoft'] = 'Microsoft';
