@@ -95,6 +95,7 @@ $lang['admin_emails_delete_success'] = 'Selected emails deleted successfully.';
 $lang['admin_emails_email_from'] = 'Sent From';
 $lang['admin_emails_mail_queue'] = 'Mail Queue';
 $lang['admin_emails_mailer'] = 'Mass Mail';
+$lang['admin_emails_search'] = 'Search emails by subject or content...';
 $lang['admin_emails_send_error'] = 'Failed to queue the email. Please try again.';
 $lang['admin_emails_send_none'] = 'No users match your selected criteria.';
 $lang['admin_emails_send_success'] = 'The email has been queued and will be sent shortly.';
