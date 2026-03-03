@@ -44,6 +44,7 @@ $lang['activity_plugin_enable_all'] = '<b>%s</b> enabled all plugins.';
 $lang['activity_plugin_install'] = '<b>%s</b> installed plugin: <b>%s</b>.';
 $lang['activity_settings_update'] = '<b>%s</b> updated site settings (<b>%s</b>).';
 $lang['activity_theme_delete'] = '<b>%s</b> deleted theme <b>%s</b>.';
+$lang['activity_theme_disable'] = '<b>%s</b> disabled theme <b>%s</b>.';
 $lang['activity_theme_enable'] = '<b>%s</b> enabled theme <b>%s</b>.';
 $lang['activity_theme_install'] = '<b>%s</b> installed theme <b>%s</b>.';
 $lang['activity_user_ban'] = '<b>%s</b> banned user accounts.';
