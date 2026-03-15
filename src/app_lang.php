@@ -251,6 +251,7 @@ $lang['meta_description'] = 'Meta Description';
 $lang['meta_title'] = 'Meta Title';
 $lang['metadata'] = 'Metadata';
 $lang['microsoft'] = 'Microsoft';
+$lang['mine'] = 'Mine';
 $lang['module'] = 'Module';
 $lang['modules'] = 'Modules';
 $lang['more'] = 'More';
