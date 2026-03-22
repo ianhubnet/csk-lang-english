@@ -13,8 +13,7 @@ indent_style = tab
 [*.php]
 insert_final_newline = true
 
-[*.yml]
-insert_final_newline = true
+[{*.yml,*.yaml,*.cff}]
 indent_style = space
 indent_size = 2
 

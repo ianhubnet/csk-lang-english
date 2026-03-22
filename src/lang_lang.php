@@ -27,6 +27,7 @@ $lang['lang_japanese'] = 'Japanese';
 $lang['lang_korean'] = 'Korean';
 $lang['lang_latvian'] = 'Latvian';
 $lang['lang_lithuanian'] = 'Lithuanian';
+$lang['lang_malay'] = 'Malay';
 $lang['lang_norwegian'] = 'Norwegian';
 $lang['lang_persian'] = 'Persian';
 $lang['lang_polish'] = 'Polish';
