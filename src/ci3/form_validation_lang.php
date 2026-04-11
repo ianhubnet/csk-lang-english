@@ -46,6 +46,7 @@ $lang['form_validation_required_without'] = 'The {field} field is required when 
 $lang['form_validation_semantic_version'] = 'The {field} field must contain a valid semantic version.';
 $lang['form_validation_strong_password'] = 'For your safety, please choose a stronger password.';
 $lang['form_validation_unique_email'] = 'This email address is already in use.';
+$lang['form_validation_unique_slug'] = 'This slug is not available.';
 $lang['form_validation_unique_username'] = 'This username is not available.';
 $lang['form_validation_user_admin'] = 'This user does not exist or cannot access the dashboard.';
 $lang['form_validation_user_exists'] = 'The user does not exist.';
