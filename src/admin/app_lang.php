@@ -19,7 +19,6 @@ $lang['admin_content'] = 'Content';
 $lang['admin_database_backup'] = 'Database Backups';
 $lang['admin_extensions'] = 'Extensions';
 $lang['admin_firewall'] = 'Firewall';
-$lang['admin_footer_thankyou'] = 'Thank you for creating with <a href="%s">%s</a>.';
 $lang['admin_help'] = 'Help';
 $lang['admin_languages'] = 'Languages';
 $lang['admin_logs'] = 'System Logs';
@@ -36,6 +35,10 @@ $lang['admin_updates'] = 'System Updates';
 $lang['admin_users'] = 'Users';
 $lang['admin_view_site'] = 'View Site';
 $lang['per_page'] = 'Per Page';
+
+// Generic Messages
+$lang['admin_footer_thankyou'] = 'Thank you for creating with <a href="%s">%s</a>.';
+$lang['admin_items_active_count'] = '=0{No active items.} other{<b>#</b> of <b>%s</b> items are active.}';
 
 /**
  * ---------------------------------------------------------------
@@ -182,6 +185,7 @@ $lang['admin_media_search'] = 'Search by name, description, or filename...';
 $lang['admin_install_location_app'] = 'This application only';
 $lang['admin_install_location_core'] = 'All applications';
 $lang['admin_install_location_select'] = '&#151; Select location &#151;';
+$lang['admin_modules_active_count'] = '=0{No active modules.} other{<b>#</b> of <b>%s</b> modules are active.}';
 $lang['admin_modules_add'] = 'Add Module';
 $lang['admin_modules_delete_confirm'] = 'Are you sure you want to delete the module: <b>%s</b>?';
 $lang['admin_modules_delete_error'] = 'Failed to delete the module.';
@@ -213,6 +217,7 @@ $lang['admin_modules_upload_tip'] = 'If you have a module in a .zip format, you 
  * ---------------------------------------------------------------
  * Language lines for the plugins management section.
  */
+$lang['admin_plugins_active_count'] = '=0{No active plugins.} other{<b>#</b> of <b>%s</b> plugins are active.}';
 $lang['admin_plugins_add'] = 'Add Plugin';
 $lang['admin_plugins_delete_confirm'] = 'Are you sure you want to delete the plugin: <b>%s</b>?';
 $lang['admin_plugins_delete_error'] = 'Failed to delete the plugin.';
