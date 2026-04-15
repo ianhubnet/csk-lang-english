@@ -182,6 +182,7 @@ $lang['admin_media_search'] = 'Search by name, description, or filename...';
  * ---------------------------------------------------------------
  * Language lines for the modules management section.
  */
+$lang['admin_install_error'] = 'Installation failed: %s';
 $lang['admin_install_location_app'] = 'This application only';
 $lang['admin_install_location_core'] = 'All applications';
 $lang['admin_install_location_select'] = '&#151; Select location &#151;';
