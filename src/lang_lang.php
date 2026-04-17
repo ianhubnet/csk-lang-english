@@ -38,6 +38,7 @@ $lang['lang_serbian'] = 'Serbian';
 $lang['lang_slovak'] = 'Slovak';
 $lang['lang_slovenian'] = 'Slovenian';
 $lang['lang_spanish'] = 'Spanish';
+$lang['lang_swahili'] = 'Swahili';
 $lang['lang_swedish'] = 'Swedish';
 $lang['lang_taiwanese'] = 'Chinese (Traditional)';
 $lang['lang_tamil'] = 'Tamil';
