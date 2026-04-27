@@ -17,6 +17,7 @@ $lang['lang_estonian'] = 'Estonian';
 $lang['lang_filipino'] = 'Filipino';
 $lang['lang_finnish'] = 'Finnish';
 $lang['lang_french'] = 'French';
+$lang['lang_georgian'] = 'Georgian';
 $lang['lang_german'] = 'German';
 $lang['lang_greek'] = 'Greek';
 $lang['lang_hindi'] = 'Hindi';
