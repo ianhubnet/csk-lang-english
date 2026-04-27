@@ -1,8 +1,7 @@
 <?php
 
 $lang['lang_arabic'] = 'Arabic';
-$lang['lang_azerbaijani'] = 'Azerbaijani';
-$lang['lang_belarusian'] = 'Belarusian';
+$lang['lang_armenian'] = 'Armenian';
 $lang['lang_bengali'] = 'Bengali';
 $lang['lang_brazilian'] = 'Portuguese (Brazil)';
 $lang['lang_bulgarian'] = 'Bulgarian';
@@ -48,4 +47,3 @@ $lang['lang_turkish'] = 'Turkish';
 $lang['lang_ukrainian'] = 'Ukrainian';
 $lang['lang_urdu'] = 'Urdu';
 $lang['lang_vietnamese'] = 'Vietnamese';
-$lang['lang_welsh'] = 'Welsh';
