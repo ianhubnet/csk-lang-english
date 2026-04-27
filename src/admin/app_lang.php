@@ -42,6 +42,24 @@ $lang['admin_items_active_count'] = '=0{No active items.} other{<b>#</b> of <b>%
 
 /**
  * ---------------------------------------------------------------
+ * Extension Install Section
+ * ---------------------------------------------------------------
+ * Language lines for the extension installation section.
+ */
+$lang['admin_install'] = 'Install';
+$lang['admin_install_error'] = 'Failed to install package.';
+$lang['admin_install_error_com'] = 'Installation failed: %s';
+$lang['admin_install_location_app'] = 'This application only';
+$lang['admin_install_location_core'] = 'All applications';
+$lang['admin_install_location_select'] = '&#151; Select location &#151;';
+$lang['admin_install_success'] = 'Package installed successfully.';
+$lang['admin_install_upload'] = 'Upload';
+$lang['admin_install_upload_error'] = 'Failed to upload package.';
+$lang['admin_install_upload_success'] = 'Package uploaded successfully.';
+$lang['admin_install_upload_tip'] = 'Install a package by uploading its <b>.zip</b> file here.';
+
+/**
+ * ---------------------------------------------------------------
  * Database & Backup Section
  * ---------------------------------------------------------------
  * Language lines for the database management section.
@@ -182,10 +200,6 @@ $lang['admin_media_search'] = 'Search by name, description, or filename...';
  * ---------------------------------------------------------------
  * Language lines for the modules management section.
  */
-$lang['admin_install_error'] = 'Installation failed: %s';
-$lang['admin_install_location_app'] = 'This application only';
-$lang['admin_install_location_core'] = 'All applications';
-$lang['admin_install_location_select'] = '&#151; Select location &#151;';
 $lang['admin_modules_active_count'] = '=0{No active modules.} other{<b>#</b> of <b>%s</b> modules are active.}';
 $lang['admin_modules_add'] = 'Add Module';
 $lang['admin_modules_delete_confirm'] = 'Are you sure you want to delete the module: <b>%s</b>?';
@@ -203,14 +217,7 @@ $lang['admin_modules_enable_all_success'] = 'All modules were successfully enabl
 $lang['admin_modules_enable_confirm'] = 'Are you sure you want to enable the module: <b>%s</b>?';
 $lang['admin_modules_enable_error'] = 'Failed to activate the module.';
 $lang['admin_modules_enable_success'] = 'Module successfully activated.';
-$lang['admin_modules_install'] = 'Install Module';
-$lang['admin_modules_install_error'] = 'Failed to install module.';
-$lang['admin_modules_install_success'] = 'Module successfully installed.';
-$lang['admin_modules_install_tip'] = 'Modules add new features and functionality to your site. Browse available modules in the <a href="%s" target="_blank" rel="noopener">module directory</a> or upload one as a .zip package.';
-$lang['admin_modules_upload'] = 'Upload Module';
-$lang['admin_modules_upload_error'] = 'Failed to upload module.';
-$lang['admin_modules_upload_success'] = 'Module successfully uploaded.';
-$lang['admin_modules_upload_tip'] = 'If you have a module in a .zip format, you may install it by uploading it here.';
+$lang['admin_modules_install_tip'] = 'Modules add new features and functionality to your site. Browse available modules in the <a href="%s" target="_blank" rel="noopener">module directory</a> or upload one as a <b>.zip</b> package.';
 
 /**
  * ---------------------------------------------------------------
@@ -235,14 +242,7 @@ $lang['admin_plugins_enable_all_success'] = 'All plugins were successfully enabl
 $lang['admin_plugins_enable_confirm'] = 'Are you sure you want to enable the plugin: <b>%s</b>?';
 $lang['admin_plugins_enable_error'] = 'Failed to activate the plugin.';
 $lang['admin_plugins_enable_success'] = 'Plugin successfully activated.';
-$lang['admin_plugins_install'] = 'Install Plugin';
-$lang['admin_plugins_install_error'] = 'Failed to install plugin.';
-$lang['admin_plugins_install_success'] = 'Plugin successfully installed.';
-$lang['admin_plugins_install_tip'] = 'Plugins extend existing features with extra options or integrations. Install from the <a href="%s" target="_blank" rel="noopener">plugin directory</a> or upload a .zip file.';
-$lang['admin_plugins_upload'] = 'Upload Plugin';
-$lang['admin_plugins_upload_error'] = 'Failed to upload plugin.';
-$lang['admin_plugins_upload_success'] = 'Plugin successfully uploaded.';
-$lang['admin_plugins_upload_tip'] = 'If you have a plugin in a .zip format, you may install it by uploading it here.';
+$lang['admin_plugins_install_tip'] = 'Plugins extend existing features with extra options or integrations. Install from the <a href="%s" target="_blank" rel="noopener">plugin directory</a> or upload a <b>.zip</b> file.';
 
 /**
  * ---------------------------------------------------------------
@@ -261,14 +261,7 @@ $lang['admin_themes_disable_success'] = 'Theme successfully deactivated.';
 $lang['admin_themes_enable_confirm'] = 'Are you sure you want to activate the theme: <b>%s</b>?';
 $lang['admin_themes_enable_error'] = 'Failed to activate theme.';
 $lang['admin_themes_enable_success'] = 'Theme successfully activated.';
-$lang['admin_themes_install'] = 'Install Theme';
-$lang['admin_themes_install_error'] = 'Failed to install theme.';
-$lang['admin_themes_install_success'] = 'Theme successfully installed.';
-$lang['admin_themes_install_tip'] = 'Themes change your site\'s appearance and layout. Choose from the <a href="%s" target="_blank" rel="noopener">theme library</a> or upload a .zip file to install your own.';
-$lang['admin_themes_upload'] = 'Upload Theme';
-$lang['admin_themes_upload_error'] = 'Failed to upload theme.';
-$lang['admin_themes_upload_success'] = 'Theme successfully uploaded.';
-$lang['admin_themes_upload_tip'] = 'If you have a theme in a .zip format, you may install it by uploading it here.';
+$lang['admin_themes_install_tip'] = 'Themes change your site’s appearance and layout. Choose from the <a href="%s" target="_blank" rel="noopener">theme library</a> or upload a <b>.zip</b> file to install your own.';
 
 /**
  * ---------------------------------------------------------------
@@ -292,7 +285,8 @@ $lang['admin_menus_none'] = '&#151; None &#151;';
  * ---------------------------------------------------------------
  * Language lines for the languages management section.
  */
-$lang['admin_languages_default_confirm'] = 'Are you sure you want to make this language the site\'s default language?';
+$lang['admin_languages_add'] = 'Add Language';
+$lang['admin_languages_default_confirm'] = 'Are you sure you want to make this language the site’s default language?';
 $lang['admin_languages_default_error'] = 'Failed to change default language.';
 $lang['admin_languages_default_error_nochange'] = 'This language is already the default one.';
 $lang['admin_languages_default_success'] = 'Default language successfully changed.';
@@ -311,7 +305,8 @@ $lang['admin_languages_enable_confirm'] = 'Are you sure you want to enable the l
 $lang['admin_languages_enable_error'] = 'Failed to enable language.';
 $lang['admin_languages_enable_error_nochange'] = 'This language is already enabled.';
 $lang['admin_languages_enable_success'] = 'Language successfully enabled.';
-$lang['admin_languages_tip'] = 'Enable, disable, and set the site\'s default language. Enabled languages are available to site visitors.';
+$lang['admin_languages_install_tip'] = 'Languages add translations for your site’s interface and content. Browse available languages in the <a href="%s" target="_blank" rel="noopener">language directory</a> or upload a <b>.zip</b> package to install your own.';
+$lang['admin_languages_tip'] = 'Enable, disable, and set the site’s default language. Enabled languages are available to site visitors.';
 
 /**
  * ---------------------------------------------------------------
