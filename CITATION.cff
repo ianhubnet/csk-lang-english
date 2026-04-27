@@ -1,10 +1,21 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
+message: "If you use this software, please cite it using the metadata below."
 authors:
 - given-names: "Kader"
   family-names: "Bouyakoub"
   orcid: "https://orcid.org/0000-0002-1184-8061"
-title: "🇺🇸 CiSkeleton Core Language Files — English (US)"
-version: 1.0.16
-date-released: 2025-05-30
-url: "https://github.com/ianhubnet/csk-lang-english"
+title: "CiSkeleton Core Language Files — English (US)"
+version: "1.0.16"
+date-released: "2025-05-30"
+url: "https://www.ianhub.net/"
+repository-code: "https://github.com/ianhubnet/csk-lang-english"
+keywords:
+- "language"
+- "translations"
+- "codeigniter"
+- "english"
+- "united-states"
+- "english-language"
+- "csk"
+- "ianhub"
+- "ci-skeleton"
