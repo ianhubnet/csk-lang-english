@@ -262,6 +262,7 @@ $lang['admin_themes_enable_confirm'] = 'Are you sure you want to activate the th
 $lang['admin_themes_enable_error'] = 'Failed to activate theme.';
 $lang['admin_themes_enable_success'] = 'Theme successfully activated.';
 $lang['admin_themes_install_tip'] = 'Themes change your site’s appearance and layout. Choose from the <a href="%s" target="_blank" rel="noopener">theme library</a> or upload a <b>.zip</b> file to install your own.';
+$lang['admin_themes_none_tip'] = 'This application is running without a theme. Install one to customize the public-facing interface.';
 
 /**
  * ---------------------------------------------------------------
