@@ -103,7 +103,6 @@ $lang['contact_support_assistance'] = 'Please contact support if you need assist
 $lang['contact_support_mistake'] = 'Please contact support if you believe this is a mistake.';
 $lang['contact_support_unexpected'] = 'Please contact support if this was unexpected.';
 $lang['content'] = 'Content';
-$lang['cookie_consent'] = 'We use cookies to understand how visitors interact with our website and to improve its functionality.';
 $lang['copy'] = 'Copy';
 $lang['country'] = 'Country';
 $lang['create'] = 'Create';
