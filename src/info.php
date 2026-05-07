@@ -17,8 +17,8 @@ return [
 	'direction'  => 'ltr',
 	'code'       => 'en',
 	'flag'       => 'us',
-	'version'    => '1.0.16',
-	'version_id' => 10016,
+	'version'    => '1.0.0',
+	'version_id' => 10000,
 
 	// Localized language names.
 	'localized_names' => [
