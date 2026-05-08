@@ -1,4 +1,4 @@
-# 🇺🇸 CiSkeleton Core Language Files — English (US)
+# 🇺🇸 CiSkeleton Language Pack — English (US)
 
 This repository contains the **default English language pack** for [CiSkeleton (CSK)](https://github.com/ianhubnet).
 
