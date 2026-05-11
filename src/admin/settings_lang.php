@@ -8,11 +8,12 @@
  */
 
 // Page Titles
+$lang['formats'] = 'Formats';
 $lang['settings_captcha'] = 'Captcha Settings';
-$lang['settings_datetime'] = 'Date & Time Settings';
 $lang['settings_email'] = 'Email Settings';
 $lang['settings_facebook'] = 'Facebook Settings';
 $lang['settings_firewall'] = 'Firewall Settings';
+$lang['settings_formats'] = 'Format Settings';
 $lang['settings_global'] = 'Global Settings';
 $lang['settings_google'] = 'Google Settings';
 $lang['settings_imgur'] = 'Imgur Settings';
@@ -47,8 +48,18 @@ $lang['allowed_types'] = 'Allowed Files';
 $lang['allowed_types_tip'] = 'List of files that are allowed to be uploaded. Use "&#124;" to separate between types.';
 $lang['contact_email'] = 'Contact Email';
 $lang['contact_email_tip'] = 'Public email address visitors can use to reach you.';
+$lang['currency'] = 'Currency';
+$lang['currency_decimal_separator'] = 'Currency Decimal Separator';
+$lang['currency_decimal_separator_tip'] = 'Optionally override the decimal separator used for currency values. Leave empty to use the locale default.';
+$lang['currency_decimals'] = 'Currency Decimals';
+$lang['currency_decimals_tip'] = 'Choose how many decimal digits should be shown for currency values.';
+$lang['currency_thousands_separator'] = 'Currency Thousands Separator';
+$lang['currency_thousands_separator_tip'] = 'Optionally override the thousands separator used for currency values. Leave empty to use the locale default.';
+$lang['currency_tip'] = 'Enter the default ISO 4217 currency code, such as USD, EUR, GBP, or DZD.';
 $lang['date_format'] = 'Date Format';
 $lang['date_format_tip'] = 'Choose the date format you want to use.';
+$lang['datetime_format'] = 'Date & Time Format';
+$lang['datetime_format_tip'] = 'Choose how date and time should be combined. Use {date} and {time} as placeholders.';
 $lang['default_controller'] = 'Homepage';
 $lang['default_controller_tip'] = 'Select the page visitors see first when they visit your website.';
 $lang['demo_mode'] = 'Demo Mode';

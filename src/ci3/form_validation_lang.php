@@ -16,6 +16,7 @@ $lang['form_validation_exact_words'] = 'The {field} field must contain exactly {
 $lang['form_validation_greater_than'] = 'The {field} field must contain a number greater than {param}.';
 $lang['form_validation_greater_than_equal_to'] = 'The {field} field must contain a number greater than or equal to {param}.';
 $lang['form_validation_has_file'] = 'The {field} field must contain a file.';
+$lang['form_validation_has_placeholders'] = 'The {field} field must contain the required placeholders: {param}.';
 $lang['form_validation_in_extension'] = 'The {field} file type is not allowed.';
 $lang['form_validation_in_list'] = 'The {field} field must be one of: {param}.';
 $lang['form_validation_in_mime'] = 'The {field} file MIME type is not allowed.';

@@ -1,6 +1,5 @@
 <?php
 
-$lang['F j, Y'] = 'F j, Y';
 $lang['about'] = 'About';
 $lang['accept'] = 'Accept';
 $lang['account'] = 'Account';
